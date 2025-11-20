@@ -1,0 +1,49 @@
+#one {
+  text-align: right;
+  background-color: rgb(231, 215, 244);
+  width: 60%;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+span {
+  color: rgb(56, 169, 56);
+  font-style: italic;
+  font-weight: bold;
+}
+
+#two {
+  width: 25%;
+  padding-top: 30px;
+  padding-right: 30px;
+  border-color: black;
+  border-style: solid;
+  margin-top: 0;
+
+  text-align: left;
+}
+/*  */
+#three {
+  border-color: blue;
+  border-style: solid;
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-bottom: 0;
+}
+#four {
+  margin-top: 0;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  border-color: black;
+  border-style: solid;
+}
+
+/* this  */
+#five {
+  width: 80%;
+  margin: auto;
+}
+/* this is targeting the image in the five */
+#five > img {
+  width: 100%;
+  border: solid black;
+}

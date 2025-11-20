@@ -1,0 +1,45 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid black;
+}
+caption {
+  color: blue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-large;
+}
+title {
+  border-color: antiquewhite;
+}
+.firstcol {
+  color: aqua;
+  background-color: black;
+  border-color: antiquewhite;
+}
+th {
+  color: aqua;
+  background-color: black;
+  border-color: antiquewhite;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+  height: 80px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.mainheader {
+  font-size: xx-large;
+}
+footer {
+  text-align: center;
+}
+header {
+  text-align: center;
+  background-color: blueviolet;
+  color: antiquewhite;
+}

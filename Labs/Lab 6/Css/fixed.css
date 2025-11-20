@@ -1,0 +1,42 @@
+/* Adjusted the width, centered and border */
+h1 {
+  width: 150px;
+  text-align: left;
+  border-style: dotted;
+  border-color: blue;
+  margin: auto;
+}
+/* This is the first paragraph id, padding and background adjusted */
+#one {
+  padding: 50px;
+  background-color: rgb(222, 220, 244);
+}
+/* 2nd paragraph adjusted margins and border and width */
+#two {
+  width: 160px;
+  margin: 30px;
+  border-style: dotted;
+  border-color: blue;
+}
+/* 3rd paragraph, border and margins, right aligned */
+#three {
+  border-style: dashed;
+  text-align: right;
+  margin-right: 200px;
+  border-color: brown;
+  margin-bottom: 0;
+}
+/* image adjustments, three and four ids are touching */
+#four {
+  width: 600px;
+  margin-top: 0;
+  border-color: black;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0;
+}
+img {
+  width: 600px;
+  border-color: black;
+  border-style: solid;
+}
